@@ -1,0 +1,25 @@
+# Gradle and Android build outputs
+.gradle/
+.kotlin/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local SDK configuration
+local.properties
+
+# Signing material and releases
+*.jks
+*.keystore
+*.apk
+*.apk.idsig
+
+# Locally supplied source rules
+app/src/main/assets/book_sources.json
+
+# IDE files
+.idea/
+*.iml
+.vscode/
